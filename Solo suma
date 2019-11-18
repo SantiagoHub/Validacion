@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+
+public class cal {
+
+    
+    public static void main(String[] args) {
+        int a,b,c;
+        a = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un numero"));
+        b = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese otro numero"));
+        c=a+b;
+        JOptionPane.showMessageDialog(null, c);
+    }
+    
+}
